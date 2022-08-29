@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.juaracoding.pageobject.drivers.DriverSingleton;
 
 public class LoginPage {
-// halo
+
 	private WebDriver driver;
 	
 	public LoginPage() {

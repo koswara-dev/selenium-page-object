@@ -1,5 +1,6 @@
 package com.juaracoding.pageobject.step_definitions;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 import com.juaracoding.pageobject.drivers.DriverSingleton;
@@ -32,4 +33,10 @@ public class Hooks {
 			e.printStackTrace();
 		}
 	}
+	
+	public static void scroll(int vertical) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,"+vertical+")");
+	}
+	
 }
