@@ -18,7 +18,7 @@ public class Utils {
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		String destination = System.getProperty("user.dir")+"/FailedTestScreenshot"
+		String destination = System.getProperty("user.dir")+"/FailedTestScreenshot/"
 				+screenshotName+"_"+dateName+".png";
 		File finalDestination = new File(destination);
 		FileUtils.copyFile(source, finalDestination);
