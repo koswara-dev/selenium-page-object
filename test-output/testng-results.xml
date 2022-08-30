@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-29T20:30:58 ICT" name="Default suite" finished-at="2022-08-29T20:31:32 ICT" duration-ms="33918">
+  <suite started-at="2022-08-30T21:14:14 ICT" name="Default suite" finished-at="2022-08-30T21:14:48 ICT" duration-ms="34540">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.pageobject.step_definitions.TestRunner@48f278eb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.pageobject.step_definitions.TestRunner@f5acb9d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-08-29T20:30:58 ICT" name="Default test" finished-at="2022-08-29T20:31:32 ICT" duration-ms="33918">
+    <test started-at="2022-08-30T21:14:14 ICT" name="Default test" finished-at="2022-08-30T21:14:48 ICT" duration-ms="34540">
       <class name="com.juaracoding.pageobject.step_definitions.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.juaracoding.pageobject.step_definitions.TestRunner@48f278eb]" started-at="2022-08-29T20:30:58 ICT" name="setUpClass" finished-at="2022-08-29T20:31:00 ICT" duration-ms="1821" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.juaracoding.pageobject.step_definitions.TestRunner@f5acb9d]" started-at="2022-08-30T21:14:14 ICT" name="setUpClass" finished-at="2022-08-30T21:14:16 ICT" duration-ms="2147" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5aaaa446]]>
+                <![CDATA[org.testng.TestRunner@58fa5769]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.pageobject.step_definitions.TestRunner@48f278eb]" started-at="2022-08-29T20:31:00 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-29T20:31:26 ICT" duration-ms="26001" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.pageobject.step_definitions.TestRunner@f5acb9d]" started-at="2022-08-30T21:14:16 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-30T21:14:39 ICT" duration-ms="23434" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.pageobject.step_definitions.TestRunner@48f278eb]" started-at="2022-08-29T20:31:26 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-29T20:31:29 ICT" duration-ms="2799" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.pageobject.step_definitions.TestRunner@f5acb9d]" started-at="2022-08-30T21:14:39 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-30T21:14:42 ICT" duration-ms="3108" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.juaracoding.pageobject.step_definitions.TestRunner@48f278eb]" started-at="2022-08-29T20:31:29 ICT" name="tearDownClass" finished-at="2022-08-29T20:31:32 ICT" duration-ms="3154" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.juaracoding.pageobject.step_definitions.TestRunner@f5acb9d]" started-at="2022-08-30T21:14:42 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-30T21:14:44 ICT" duration-ms="2037" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Dashboard user function"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard User"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Launching Soo] but found [Launching Soon]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Launching Soo] but found [Launching Soon]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.juaracoding.pageobject.step_definitions.TestDashboard.user_on_menu_dashboard(TestDashboard.java:34)
+at ✽.User on menu Dashboard(file:///C:/juaracoding/java/com.juaracoding.pageobject/src/test/resources/features/02.Dashboard.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.juaracoding.pageobject.step_definitions.TestRunner@f5acb9d]" started-at="2022-08-30T21:14:44 ICT" name="tearDownClass" finished-at="2022-08-30T21:14:48 ICT" duration-ms="3693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

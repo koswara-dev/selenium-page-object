@@ -1,5 +1,5 @@
 Feature: Dashboard User
 
-  Scenario: Dashboard User Function
+  Scenario: Dashboard user function
     When User click menu Dashboard
     Then User on menu Dashboard
