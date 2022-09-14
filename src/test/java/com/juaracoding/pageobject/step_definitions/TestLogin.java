@@ -1,6 +1,7 @@
 package com.juaracoding.pageobject.step_definitions;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
 
@@ -64,6 +65,7 @@ public class TestLogin {
 	@Then("User valid credentials")
 	public void user_valid_credentials() {
 		assertEquals(loginPage.getTxtEmpInfo(), "Employee Information");
+		assertTrue(loginPage.getTxtEmpInfo().contains("Employee"));
 		extentTest.log(LogStatus.PASS, "User valid credentials");
 	}
 	
